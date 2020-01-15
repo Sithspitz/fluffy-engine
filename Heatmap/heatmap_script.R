@@ -3,7 +3,7 @@
 
 
 #### SOURCE FUNCTIONS ####
-
+library(gplots)
 setwd("Heatmap/")
 
 data <- read.csv("case_averages_omitted_transposed.csv", header = T)
